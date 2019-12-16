@@ -1,0 +1,66 @@
+html, body {
+  min-width: 500px;
+  padding: 0;
+  margin: 0;
+}
+
+.panel {
+  padding: 5px;
+}
+
+li {
+  margin-bottom: 5px;
+}
+
+.panel-section {
+  border: 1px solid #c8c8c8;
+  background-color: #efefef;
+  border-radius: 5px;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+.panel-section span {
+  display: block;
+  padding-right: 10px
+}
+
+.panel-section-error {
+}
+
+.panel-section-error span {
+}
+
+.panel-section-success {
+}
+
+.panel-section-success span {
+}
+
+.button {
+  padding: 8px 16px;
+  border-radius: 20px;
+  background-color: #267aff;
+  color: #fff;
+  text-decoration: none;
+  white-space: nowrap;
+  border: none;
+}
+.button-login {
+}
+.button-copy {
+}
+
+.button:hover {
+  background-color: #2693FF;
+  position: relative;
+  top: -1px;
+  cursor: pointer;
+}
+
+.button-error {
+  background-color: #ff2005;
+}
+.button-error:hover {
+  background-color: #ff390d;
+}

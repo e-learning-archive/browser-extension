@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="cookies.css"/>
+  </head>
+
+  <body>
+    <div class="panel">
+      <div class="panel-section panel-section-error" style="display:none" id="not-logged-in">
+        <span><strong>You are not logged in to Coursera.</strong> This plugin doesn't work unless you login to Coursera.</span>
+        <button class="button button-login" id="login-button">Login to Coursera</button>
+      </div>
+      <div class="panel-section panel-section-success" style="display:none" id="logged-in">
+        <span><strong>🎉 Hooray! 🎉</strong> You are logged in to Coursera!</span>
+        <button class="button button-copy" id="copy-button">✂ Copy authentication code</button>
+      </div>
+      <script src="cookies.js"></script>
+    </div>
+  </body>
+
+</html>

@@ -1,0 +1,21 @@
+{
+  "browser_action": {
+    "browser_style": true,
+    "default_title": "Coursera authentication helper",
+    "default_popup": "cookies.html",
+    "default_icon": {
+      "19": "icons/auth19.png",
+      "38": "icons/auth38.png"
+    }
+  },
+  "description": "Coursera authentication helper",
+  "icons": {
+    "48": "icons/auth.png",
+    "96": "icons/auth@2x.png"
+  },
+  "homepage_url": "https://github.com/e-learning-archive/browser-extension",
+  "manifest_version": 2,
+  "name": "Coursera authentication helper",
+  "version": "1.0",
+  "permissions": ["cookies","https://*.coursera.org/","clipboardRead","clipboardWrite"]
+}
