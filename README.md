@@ -7,19 +7,8 @@ This extension helps you re-use your authentication details for Coursera with th
 
 ## How to install it
 
-### Firefox
-
-1. Simply install the version [here](https://addons.mozilla.org/en-US/firefox/addon/coursera-authentication-helper/)
-
-### Google Chrome 
- 
-1. Once the plugin has been approved you can download it [here](https://chrome.google.com/webstore/detail/fkbgecmligfnknoclmgaebbcoodcacnf?hl=en)
-
-Until then, do the following:
-
-1. Download the latest release from [the releases page](https://github.com/e-learning-archive/browser-extension/releases)
-2. Follow the instructions [here](https://www.thesslstore.com/blog/install-a-chrome-extension/).
-
+This extension can be installed in [Firefox](https://addons.mozilla.org/en-US/firefox/addon/coursera-authentication-helper/)
+or in [Google Chrome](https://chrome.google.com/webstore/detail/fkbgecmligfnknoclmgaebbcoodcacnf?hl=en).
 
 ## How to use it
 
