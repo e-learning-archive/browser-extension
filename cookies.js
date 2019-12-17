@@ -45,4 +45,8 @@ function init(cookies) {
         })
 }
 
-init( typeof chrome === 'undefined' ? browser.cookies : chrome.cookies );
+init( (function () {
+    return window.msBrowser ||
+           window.browser ||
+           window.chrome;
+})().cookies );
