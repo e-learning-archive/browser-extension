@@ -17,5 +17,5 @@
   "manifest_version": 2,
   "name": "Coursera authentication helper",
   "version": "1.0",
-  "permissions": ["cookies","https://*.coursera.org/","clipboardWrite"]
+  "permissions": ["cookies","https://www.coursera.org/","clipboardWrite"]
 }
